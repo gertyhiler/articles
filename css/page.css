@@ -1,0 +1,27 @@
+.comment,
+.article {
+  padding: 25px 0;
+}
+
+.comment-wrapper:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.name {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.mail {
+  color: #000736;
+  margin-bottom: 15px;
+}
+
+.comment__headline {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.comment__text {
+  width: 70%;
+}

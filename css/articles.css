@@ -1,0 +1,46 @@
+.articles {
+  padding-top: 50px;
+}
+
+.article:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.article__link {
+  padding-left: 25px;
+  background: left/contain no-repeat url('../assets/page-icon.svg');
+
+  transition: color .2s ease-in;
+}
+
+.pagination__link:hover,
+.article__link:hover {
+  color: darkcyan;
+}
+
+.pagination__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 25px 0;
+}
+
+.pagination__item {
+  flex-grow: 1;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.pagination__link {
+  width: 100%;
+  height: 100%;
+  transition: color .2s ease-in;
+}
+
+.pagination__item_accent {
+  border-color: darkcyan;
+}
+
+.pagination__item_accent .pagination__link {
+  color: darkcyan;
+}
